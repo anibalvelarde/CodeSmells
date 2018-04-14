@@ -22,11 +22,10 @@ This code repository contains
 
 # Reference links
 
-[Twin Cities Code Camp](https://twincitiescodecamp.com)
+[Twin Cities Code Camp #22](https://twincitiescodecamp.com/#/event)
 
 [My Talk, Developing a Nose for Code-Smells, at TCCC-22](https://twincitiescodecamp.com/#/talks/810)
 
-## Twin Cities Code Camp #22
 ### Normandale Community College
 ### April 21, 2018 8am - 4pm
 #### Kopp Student Center 
