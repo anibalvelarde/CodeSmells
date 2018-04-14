@@ -16,9 +16,10 @@ This code repository contains
 
 [Twin Cities Code Camp](https://twincitiescodecamp.com)
 
-[My Talk at TCCC-22](https://twincitiescodecamp.com/#/talks/810)
+[My Talk, Developing a Nose for Code-Smells, at TCCC-22](https://twincitiescodecamp.com/#/talks/810)
 
-## Developing a Nose for Code-Smells
+## Twin Cities Code Camp #22
 ### Normandale Community College
+### April 21, 2018 8am - 4pm
 #### Kopp Student Center 
 Room P0838
