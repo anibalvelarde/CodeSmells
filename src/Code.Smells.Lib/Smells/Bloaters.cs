@@ -9,20 +9,50 @@ namespace Code.Smells.Lib.Smells
 {
     public class Bloaters
     {
-        public void LongMethod()
+        #region LongParameterList
+        public void LongParameterList_CallingCode()
         {
-            // get the current directory so we can 
-            // look for certain types of files
-            var current_path = Path.GetDirectoryName(Environment.CurrentDirectory);
+            double basePrice, quantity = 5, itemPrice = 2.50;
 
-            // determine the assets folder location; there should always be one within th 
-            var sub_directory = Path.Combine(current_path, "assets_folder");
+            basePrice = quantity * itemPrice;
+            double seasonDiscount = this.GetSeasonDiscount();
+            double fees = this.GetFees();
 
-            if (true)
-            {
+            double finalPrice = this.DiscountedPrice(basePrice, seasonDiscount, fees);
 
-                // get all the files in the current folder
+        }
 
-            }        }
+        public void LongParameterList_CallingCode_Refactored()
+        {
+            double basePrice, quantity = 5, itemPrice = 2.50;
+            basePrice = quantity * itemPrice;
+
+            double finalPrice = this.DiscountedPriceRefactored(basePrice);
+        }
+
+        private double DiscountedPriceRefactored(double basePrice)
+        {
+            return (basePrice + this.GetFees()) - this.GetSeasonDiscount(); 
+        }
+
+        private double DiscountedPrice(double basePrice, double seasonDiscount, double fees)
+        {
+            // logic for discounted price...
+            return (basePrice + fees) - seasonDiscount;
+        }
+
+        private double GetFees()
+        {
+            // logic to get fees
+            return 2.55;
+        }
+
+        private double GetSeasonDiscount()
+        {
+            // logic to get discount
+            return 0.10;
+        }
+
+        #endregion
     }
-}
+ }

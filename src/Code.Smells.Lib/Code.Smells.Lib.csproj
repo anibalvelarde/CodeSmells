@@ -40,11 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\Trapezoid.cs" />
+    <Compile Include="Examples\DirtyCodeVsCleanCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Smells\Bloaters.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Refactor\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
