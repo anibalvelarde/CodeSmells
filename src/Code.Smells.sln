@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code.Smells.Lib", "Code.Smells.Lib\Code.Smells.Lib.csproj", "{48EF9D43-68FE-46B5-82AA-A273F684A302}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code.Smells.Lib.Tests", "Code.Smells.Lib.Tests\Code.Smells.Lib.Tests.csproj", "{C7271304-2616-460B-92F5-630EE78A1335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{48EF9D43-68FE-46B5-82AA-A273F684A302}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48EF9D43-68FE-46B5-82AA-A273F684A302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48EF9D43-68FE-46B5-82AA-A273F684A302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7271304-2616-460B-92F5-630EE78A1335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7271304-2616-460B-92F5-630EE78A1335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7271304-2616-460B-92F5-630EE78A1335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7271304-2616-460B-92F5-630EE78A1335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
